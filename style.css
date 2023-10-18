@@ -1,0 +1,25 @@
+@font-face {
+            font-family: "ibm-ega-8x14";
+            src: url("Px437_IBM_EGA_8x14.ttf") format('truetype');
+        }
+
+        body {
+            background-color: #090909;
+            color: #FFFFFF;
+            align-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: "ibm-ega-8x14";
+            display: flex;
+            margin: 0;
+            padding: 0;
+            flex-direction: column;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 0;
+        }
